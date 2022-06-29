@@ -11,7 +11,7 @@ lemmatizer=wordnet.WordNetLemmatizer()
 intenciones=json.loads(open("intents.json").read())
 palabras=pickle.load(open("palabras.pkl", "rb"))
 clases=pickle.load(open("clases.pkl", "rb"))
-modelo= load_model("chatbot_modelo.model")
+modelo= load_model("chatbot_modelo.h5")
 
 def limpiar_frase(frase):
     palabras_frase= nltk.wordpunct_tokenize(frase)
