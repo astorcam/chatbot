@@ -14,4 +14,5 @@ I used the following libraries:
 -numpy
 -tensorflow
 
-It's a small proyect made just to learn about machine learning, bag of words, etc.
+It's a small proyect made just to learn about machine learning, bag of words and specially neural networks.
+I hope this can help someone, somehow.
