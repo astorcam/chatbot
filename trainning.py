@@ -10,6 +10,8 @@ import numpy as np
 import nltk
 from nltk.stem import wordnet
 import self
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 lemmatizer= wordnet.WordNetLemmatizer
 intenciones= json.loads(open("intents.json").read())
