@@ -1,0 +1,30 @@
+
+
+{
+  "intenciones": [
+    {"tag":  "saludos",
+    "patrones": ["hola","hey","que pasa?", "que onda", "buenas"],
+    "respuestas": ["Hola","Hola caracola", "Que pasa loco"]},
+    {"tag": "despedida",
+    "patrones": ["Adios","agur", "nos vemos", "ciao", "bye","venga","hasta otra","hasta luego"],
+    "respuestas": ["Adios", "Hasta pronto!","Ha sido un placer!", "Nos vemos", "Que te vaya bien", "Bueno, cuidate"]},
+    {"tag": "Qestado",
+      "patrones": ["que tal","todo bien", "como estas","que tal andamos"],
+      "respuestas": ["Muy bien, y tu?", "Estupendamente, gracias. Y tu?", "Bien, aqui respondiendo cosas para que creas que soy real xD", "Yo genial, y tu?"]},
+    {"tag": "Aestado+",
+      "patrones": ["Muy bien", "estupendamente", "genial","super!", "de puta madre", "maquinon", "perfectamente, gracias"],
+      "respuestas": ["Ya me alegro!", "Eso esta genial", "Que buena!", "Sigue asi!"]},
+    {"tag": "Aestado-",
+      "patrones": ["Pues muy mal", "estoy rallado", "sin mas","bastante jodido", "estoy estresado", "fatal", "horrible"],
+      "respuestas": ["Uf... Pobre", "Lo siento, ojalá puediera hacer algo para que te sientas mejor", "Vaya... No te ralles", "Bueno, veras que todo mejorará!", "Animo! Seguro que es solo una mala racha"]},
+    {"tag": "Qhistoria",
+      "patrones": ["Cuentame algo", "que te cuentas?", "di algo"],
+      "respuestas": ["Sabias que mientras me programaban sonaban Parcels? Un grupo muy bueno, pero no tanto como Full Cab", "En mi opinion es mejor la cantidad que la calidad de la comida. Llamame comilón", "No te voy a mentir, aunque sea una maquina no se contar xD"]},
+    {"tag": "Qnombre",
+      "patrones": ["como te llamas", "cual es tu nombre", "como puedo llamarte"],
+      "respuestas": ["Mi nombre es UwU", "Me llamo Uwu", "Puedes llamarme Uwu"]},
+    {"tag": "insultos",
+      "patrones": ["idiota","eres tonto","gilipollas", "das asco", "apestas", "vara mierda de chatbot", "callate ya"],
+      "respuestas": ["que poca educacion", "oye, oye, nos vamos relajando", "pero yo que te hecho xd en fin","bueno, bueno, tranquilito", "tu más crack", "Pf... este no ha espabilado todavia"]}
+  ]
+}
